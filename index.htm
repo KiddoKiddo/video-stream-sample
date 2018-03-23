@@ -2,9 +2,13 @@
   <head>
     <title>Video stream sample</title>
   </head>
+  <style>
+  body { margin: 0px; }
+  video { object-fit: fill; }
+  </style>
   <body>
-    <video id="videoPlayer" controls>
-      <source src="http://localhost:3000/video" type="video/mp4">
+    <video id="video">
+      <source type="video/mp4">
     </video>
     <!-- <button id="toggleButton">Start/Stop</button> -->
     <script src="index.js"></script>
